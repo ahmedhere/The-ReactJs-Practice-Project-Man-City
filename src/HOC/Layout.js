@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import Header from "../components/Header_Footer/Header";
 
 export default class Layout extends Component {
   render() {
     return (
       <div>
-        Hello jani
+        <Header />
         {this.props.children}
       </div>
     );
