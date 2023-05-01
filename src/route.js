@@ -1,5 +1,8 @@
-function App() {
-  return <div className="App">Header Hello</div>;
+import React from "react";
+import Layout from "./HOC/Layout";
+
+function Routes(props) {
+  return <Layout>Second Line</Layout>;
 }
 
-export default App;
+export default Routes;
