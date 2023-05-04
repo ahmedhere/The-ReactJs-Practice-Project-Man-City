@@ -1,8 +1,9 @@
 import React from "react";
 import Layout from "./HOC/Layout";
+import { Switch, Routes } from "react-router-dom";
 
-function Routes(props) {
+function Route(props) {
   return <Layout>Second Line</Layout>;
 }
 
-export default Routes;
+export default Route;
