@@ -20,13 +20,13 @@ export default class Header extends Component {
             <div className="header_logo">
               <CITYLOGO link={true} linkTo="/" width="70px" height="70px" />
             </div>
-            <Link to="/the_team">
-              <Button color="inherit">The team</Button>
-            </Link>
-            <Link to="/the_matches">
-              <Button color="inherit">Matches</Button>
-            </Link>
           </div>
+          <Link to="/the_team">
+            <Button color="inherit">The team</Button>
+          </Link>
+          <Link to="/the_matches">
+            <Button color="inherit">Matches</Button>
+          </Link>
         </Toolbar>
       </AppBar>
     );
